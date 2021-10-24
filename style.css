@@ -1,0 +1,112 @@
+.homepage-quotationmarks {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #41C0C0;
+    height: 20px;
+}
+
+.homepage-quotationslider h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.1em;
+    color: #58595B;
+    max-width: 800px;
+		text-transform: inherit !important;
+	margin-top: unset !important;
+}
+
+.homepage-quotationslider h4 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1em;
+    color: #58595B;
+	margin-top: 25px;
+}
+
+.highlight {
+    color: #41C0C0 !important;
+}
+
+#tns1 {
+	display: flex;
+	transform: unset;
+}
+
+/* .homepage-third-col {
+	display: inline-flex;
+	width: 33.3% !important;
+} */
+
+.homepage-twothird-col {
+		margin-left: 50px;
+    margin-right: 50px;
+}
+
+.homepage-twothird-col h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.1em;
+    color: #58595B;
+    max-width: 800px;
+		text-transform: inherit !important;
+	margin-top: unset !important;
+}
+
+.homepage-twothird-col h4 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1em;
+    color: #58595B;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+
+.tns-liveregion {
+	display: none !important;
+}
+
+.fa-long-arrow-alt-right,
+.fa-long-arrow-alt-left {
+	font-size: 32px !important;
+	color: #41c0c0 !important;
+}
+
+button#nextslider,
+button#prevslider
+{
+	background-color: unset !important;
+	border: none !important;
+}
+
+.flex-vertical-center {
+	display: flex;
+	align-content: center;
+	align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+	.flex-vertical-center {
+		display: flex;
+		flex-direction: column !important;
+	}
+	.homepage-twothird-col {
+		margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+	}
+	.homepage-twothird-col h2 {
+		font-size: 24px;
+	}
+	.homepage-twothird-col h4 {
+		font-size: 16px;
+	}
+	.homepage-quotationmarks {
+		font-size: 48px;
+		height: 10px;
+	}
+}
